@@ -1,0 +1,67 @@
+.ml-25{
+    margin-left: 25rem;
+}
+.ml-5{
+    margin-left: 5rem;
+}
+
+.mtop-5{
+    margin-top: 6rem;
+}
+
+
+@media screen and (max-width: 980px){
+    
+    .navbar{
+        padding:0;
+    }
+    .navbar-collapse ul li {
+        margin-left:0;
+    }
+    .r-1-t-res {
+        margin-left:0;
+    }
+    .row-1-icon {
+        
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .proj-card{
+        margin-bottom: 10px;
+    }
+    #icon-2{
+        /* display: ; */
+        display: none;
+        visibility: none !important;
+    }
+    /* .carousel-item .card{
+        margin: 0 auto;
+        background-color: transparent;
+        /* border: 2px solid red; */
+        /* border: none; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* width: 80% !important; */
+        /* justify-content: center; */
+        /* align-items: center; */
+    /* } */ 
+    .con-img{
+        margin-bottom: 10px;
+    }
+    .navbar-collapse{
+        margin:0 auto !important;
+    }
+    .form-tab{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .logo{
+        margin-left: 0 !important;
+        display: none !important;
+    }
+    .client-r{
+        margin-bottom: 10px;
+    }
+   
+}
+

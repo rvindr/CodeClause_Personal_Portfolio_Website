@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+/* background: linear-gradient(90deg, rgba(9,9,121,1) 28%, rgba(83,4,200,1) 71%, rgba(92,3,210,1) 82%, rgba(134,0,255,1) 98%); */
+
+body {
+    background-color: rgb(32, 31, 54) !important;
+    scroll-behavior: smooth;
+}
+.logo{
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.navbar-brand {
+    background: #090979;
+    background: linear-gradient(to right, #090979 0%, #5C03D2 52%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+
+.navbar-collapse ul li {
+    margin-left: 2rem;
+}
+
+.navbar {
+    padding: 1.8rem 0 1.2 0;
+    background-color: rgb(32, 31, 54) !important;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-nav li a:hover{
+    background: #090979 ;
+    background: linear-gradient(to right, #090979 0%, #5C03D2 52%) ;
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent ;
+}
+
+.row-1-icon {
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.r-1-col-1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto 0;
+    text-align: left;
+}
+
+.r-1-t-res {
+    margin-left: 10rem;
+    color: white;
+}
+
+.r-1-col-1 h1 {
+    font-size: 3rem !important;
+    letter-spacing: 0.2rem;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 0.4rem 2.2rem;
+    border-radius: 5px;
+    background: rgb(9, 9, 121);
+    background: linear-gradient(90deg, rgba(9, 9, 121, 1) 28%, rgba(83, 4, 200, 1) 71%, rgba(92, 3, 210, 1) 82%, rgba(134, 0, 255, 1) 98%);
+}
+
+.btn:hover {
+    color: black;
+    background: white;
+    border: 2px solid rgb(9, 9, 121);
+
+}
+.r-2-col-2{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto 0;
+    text-align: left;
+}
+.service{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.2rem;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+.service h4{
+    font-size: 3rem !important;
+
+}
+.skill-icon{
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 3rem;
+}
+.my-card{
+/* border: 1px solid red; */
+/* background-color: white; */
+/* padding: 2rem 0; */
+display: flex;
+flex-direction: column;
+flex-wrap:nowrap;
+align-items: center;
+justify-content: center;
+/* border-radius: 5px; */
+/* margin: 0 4rem; */
+
+}
+.my-card img{
+    max-width: 100px;
+    max-height: 100px;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* align-content: center; */
+    /* margin: 0 auto; */
+    /* margin-left: 6rem; */
+}
+.my-card h5{
+    font-size: 1.3rem;
+    color: white;
+}
+.work{
+    /* border: 1px solid red; */
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+.work h4{
+    line-height: 3rem;
+    font-size: 2rem;
+}
+.proj-card{
+    color: black;
+    border: 1px solid white;
+    margin: 0 auto;
+    /* neumorphism  */
+    border-radius: 50px;
+background: #201F36;
+box-shadow:  -13px -13px 30px #0d0c16,
+             13px 13px 30px #333256;
+}
+
+
+#proj-card-1{
+    background-image: url('/img/net-scanner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#proj-card-2{
+    background-image: url('/img/portfolio.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#proj-card-3{
+    background-image: url('./img/social.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* #proj-card-1:hover,#proj-card-2:hover,#proj-card-3:hover{
+    /* background: linear-gradient(90deg, rgba(9, 9, 121, 1) 28%, rgba(83, 4, 200, 1) 71%, rgba(92, 3, 210, 1) 82%, rgba(134, 0, 255, 1) 98%); */
+    /* background: hsl(0 0 0% / 0.9) ; */
+/* } */ 
+.proj-t{
+    color: rgb(230 ,   234, 151) !important;
+}
+.proj-h{
+    color: white;
+    text-shadow: 1px 1px 2px black ;
+}
+.proj-card .card-link a{
+ text-decoration: none;
+}
+.card-btn{
+    text-decoration: none;
+    color: white;
+    padding: 0.4rem 0.4rem;
+    border-radius: 5px;
+    background: rgb(9, 9, 121);
+    background: linear-gradient(90deg, rgba(9, 9, 121, 1) 28%, rgba(83, 4, 200, 1) 71%, rgba(92, 3, 210, 1) 82%, rgba(134, 0, 255, 1) 98%);
+}
+.card-btn:hover{
+    color: black;
+    background: white;
+    border: 2px solid rgb(9, 9, 121);
+}
+.sections-header{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.2rem;
+    color: white;
+}
+.sections-header h4{
+    font-size: 2rem !important;
+}
+
+
+.client{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.client-r{
+    border: 2px solid white;
+    border-radius: 5px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.client-img-div img{
+    max-width: 500px;
+    max-height: 500px;
+}
+.client-img{
+    border-radius: 50%;
+}
+
+.form-tab{
+    margin: auto 0;
+}
+.con-img{
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.pro{
+    margin: auto 0;
+}
+.progress label{
+    color: black;
+}
+#ang{
+    background-color: pink !important;
+}
+#python{
+    background-color: chartreuse !important;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.ft-img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.links{
+    font-size: 1.6rem;
+}
+.l-res{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
